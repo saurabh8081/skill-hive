@@ -15,12 +15,12 @@
   }
 }
 
-.brandBanner > svg {
+.brandsBanner > svg {
   color: white;
   font-size: 3rem;
   transition: color 0.5s;
 }
-.brandBanner > svg:hover {
+.brandsBanner > svg:hover {
   color: rgb(255, 221, 0);
 }
 
@@ -29,23 +29,27 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 .container2 video {
   border: 1px solid rgba(0, 0, 0, 0.18);
   width: 60%;
   border-radius: 5px;
-  box-shadow: 0 0 10px black;
   outline: none;
 }
 
 @media screen and (max-width: 600px) {
-.container2{
-    height: unset;
-    padding: 4vh 0;
+  .container2 video {
+    width: 100%;
+  }
 }
 
-.container2 video{
-  width: 100%;
-    }
+.course {
+  width: 250px;
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+}
+
+.course:hover {
+  transform: translateY(-10px);
 }
